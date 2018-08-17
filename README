@@ -4,6 +4,12 @@
 
 A browser extension that removes popularity counts (views, likes, subscribers etc.) from popular video sites (i.e. YouTube).
 
+This is an experiment.
+
+Do you feel biased towards certain videos due to a low or high count?
+Are these counts helpful? I don't have the answers, yet.
+
+
 ## Development
 
 Source code is located in the `extension` folder.
