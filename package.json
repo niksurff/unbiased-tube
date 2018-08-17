@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@niksurff/unbiased-tube",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A browser extension that removes popularity counts (views, likes, subscribers etc.) from popular video sites (i.e. YouTube).",
   "main": "",
   "scripts": {
