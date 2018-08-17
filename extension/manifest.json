@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "name": "Unbiased Tube",
   "description": "This browser extension removes popularity counts (views, likes, subscribers etc.) from popular video sites (i.e. YouTube).",
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png"
+  },
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
