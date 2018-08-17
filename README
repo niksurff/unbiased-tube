@@ -1,0 +1,10 @@
+# Unbiased Tube
+
+> In development and not published yet.
+
+A browser extension that removes popularity counts (views, likes, subscribers etc.) from popular video sites (i.e. YouTube).
+
+## Development
+
+Source code is located in the `extension` folder.
+Have a look at `package.scripts` inside `package.json` for common commands.
