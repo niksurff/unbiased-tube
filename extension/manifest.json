@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "name": "Unbiased Tube",
+  "description": "This browser extension removes counters (views, likes, subscribers etc.) from popular video sites (i.e. YouTube).",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["./remove-counters.js"]
+    }
+  ]
+}
