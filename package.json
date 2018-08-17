@@ -2,7 +2,7 @@
   "private": true,
   "name": "@niksurff/unbiased-tube",
   "version": "0.1.0",
-  "description": "An extension removing counters (views, likes, subscribers etc.) from popular video sites (i.e. YouTube).",
+  "description": "A browser extension that removes popularity counts (views, likes, subscribers etc.) from popular video sites (i.e. YouTube).",
   "main": "",
   "scripts": {
     "test": "web-ext lint --source-dir extension",
@@ -10,7 +10,7 @@
     "build": "web-ext build --source-dir extension --artifacts-dir dist"
   },
   "keywords": [],
-  "author": "Nik Surff (https://lazylife.ninja)",
+  "author": "Nik Surff (https://www.lazylife.ninja)",
   "license": "MIT",
   "devDependencies": {
     "web-ext": "^2.8.0"

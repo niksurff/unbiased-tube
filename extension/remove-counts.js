@@ -94,6 +94,7 @@ const removeLikesAndDislikes = function() {
     } catch (e) {}
   }
 }
+
 const removeCounts = function() {
   removeViewsFromList()
   removeViewsFromPlayer()
@@ -102,16 +103,18 @@ const removeCounts = function() {
 }
 
 const DEBOUNCE_TIME = 200
+
 const debouncedRemoveCounts = debounce(removeCounts, DEBOUNCE_TIME)
 
 const observerConfig = { attributes: false, childList: true, subtree: true }
 
-const mutationCallback = function(mutationList) {
+const observerCallback = function(mutationList) {
   console.log("[Unbiased Tube]: Document mutation detected...")
+
   debouncedRemoveCounts()
 }
 
-const observer = new MutationObserver(mutationCallback)
+const observer = new MutationObserver(observerCallback)
 
 // ---
 
