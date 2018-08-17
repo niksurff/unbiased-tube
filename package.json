@@ -10,7 +10,7 @@
     "build": "web-ext build --source-dir extension --artifacts-dir dist"
   },
   "keywords": [],
-  "author": "Nik Surff (https://www.lazylife.ninja)",
+  "author": "Nik Surff (https://lazylife.ninja)",
   "license": "MIT",
   "devDependencies": {
     "web-ext": "^2.8.0"
